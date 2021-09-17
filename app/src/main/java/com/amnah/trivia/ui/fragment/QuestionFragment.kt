@@ -104,15 +104,6 @@ class QuestionFragment : Fragment() {
     private fun displayWinFragment() {
         val action = QuestionFragmentDirections.actionQuestionFragmentToResultFragment(point)
         view?.let { Navigation.findNavController(it).navigate(action) }
-
-//        val winFragment = WinFragment()
-//        val bundle= Bundle()
-//        bundle.putInt(Constatnt.POINTS,point)
-//        winFragment.arguments = bundle
-//        requireActivity().supportFragmentManager.beginTransaction()
-//            .add(R.id.container,winFragment)
-//            .addToBackStack(null)
-//            .commit()
     }
 
     private fun isEnabledButton(value: Boolean) {

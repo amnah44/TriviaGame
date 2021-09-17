@@ -1,4 +1,4 @@
-package com.amnah.trivia.model.response
+package com.amnah.trivia.model
 
 
 import com.google.gson.annotations.SerializedName

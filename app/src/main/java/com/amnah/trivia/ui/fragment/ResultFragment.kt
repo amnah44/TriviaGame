@@ -42,8 +42,5 @@ class ResultFragment : Fragment() {
                 lossPic.visibility = View.VISIBLE
             }
 
-//        binding.playAgain.setOnClickListener {
-//            Navigation.findNavController(it).popBackStack()
-//        }
     }
 }
